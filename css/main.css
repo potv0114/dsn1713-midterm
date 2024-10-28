@@ -100,6 +100,17 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 500px;
+  padding-top: 50px;
+}
+
+#cta h2 {
+  color: #ffffff;
+}
+
+.custom-padding {
+  padding-left: 22rem;
+  padding-right: 22rem;
 }
 
 #cta .d-flex {
@@ -114,4 +125,10 @@ section:not(#hero):not(#cta){
   section:not(#hero):not(#cta){
     padding: 100px 0;
   }
+}
+
+footer {
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 20px 0;
 }
